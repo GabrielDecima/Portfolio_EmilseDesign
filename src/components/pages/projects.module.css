@@ -1,0 +1,135 @@
+
+
+.containerNavigation{
+    margin-top: 2rem;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.navigation li{
+padding-left: .2rem;
+padding-right: .2rem;
+    
+}
+
+.navigation li a{
+text-decoration: none;
+color: #313131;
+text-align: center;
+font-size: 0.589rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.0625rem;
+text-transform: uppercase;
+
+}
+
+
+.navigation li a:hover{
+    border-radius: 0.0625rem;
+    border: 1.5px solid #010101;
+    color: #000;
+
+}
+    
+.containerCardsProject{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    margin-top: 1.5rem;
+    
+}
+
+.cardProject{
+    border: solid 2px red;
+    width: 7rem;
+    height: 10rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) {
+
+    .navigation li a{
+    
+        font-size: 0.9rem;
+        font-style:inherit;
+        font-weight: 550; 
+    }  
+        .navigation li a:hover{
+            border-radius: 0.0625rem;
+            border: 1.5px solid #010101;
+            color: #000;
+        
+    }
+    .containerCardsProject{
+      grid-template-columns: 1fr 1fr 1fr ; 
+    }
+    
+    .cardProject{
+        width: 10rem;
+        height: 13rem;
+        margin: 1.5rem;
+    }
+    
+    
+
+}
+
+@media (min-width: 1024px) {
+    .containerNavigation{
+        margin-top: 5rem;
+    }
+    
+    .cardProject{
+      
+        width: 12rem;
+        height: 16rem; 
+    }
+}
+
+@media (min-width: 1440px) {
+   
+    .containerCardsProject{
+    
+        grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    }
+    
+    .cardProject{
+      
+        width: 14rem;
+        height: 19rem;
+        
+    }
+
+}
+
+@media (min-width: 2000px) {
+   
+    .containerCardsProject{
+    
+        grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    }
+    
+    .cardProject{
+      
+        width: 19rem;
+        height: 26rem;
+        margin: 3rem;
+    }
+
+    .navigation li a{
+    
+        font-size: 1.2rem;
+        font-style:inherit;
+        font-weight: 550; 
+    }  
+
+}

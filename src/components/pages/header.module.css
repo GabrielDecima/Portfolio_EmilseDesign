@@ -1,0 +1,51 @@
+.sectionHeader{
+    text-align: center;
+}
+.span{
+color: #FF1292;
+font-size: 1.0625rem;
+font-style: italic;
+font-weight: 400;
+line-height: 2.5rem;
+
+}
+.title{
+color: #141518;
+text-align: center;
+font-size: 2rem;
+font-style: normal;
+font-weight: 550;
+line-height: 2.9rem;
+letter-spacing: -0.0625rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+    
+    .sectionHeader{
+        margin-top: 2rem;
+    }
+    .title{
+    font-size: 3rem;
+    }
+    
+    .titleContainer{
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1028px) {
+ 
+    .title{
+        font-size: 4rem;
+        line-height: 4.9rem;
+    }
+    .titleContainer{
+        width: 40rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+}
