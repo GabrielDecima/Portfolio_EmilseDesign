@@ -1,15 +1,11 @@
-import  { useState } from 'react';
 import styles from './navbar.module.css';
 import logo from '../../assets/emilse-design-favicon-black.png';
 import 'boxicons'
 
 
-const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+// eslint-disable-next-line react/prop-types
+const Navbar = ({isMenuOpen, toggleMenu} ) => {
 
   return (
     <>

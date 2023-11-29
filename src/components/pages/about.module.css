@@ -1,0 +1,102 @@
+.sectionAbout{
+    margin-top: 6rem;
+
+}
+.containerText{
+    align-items: center;
+    text-align: center;
+}
+.containerText img{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    
+}
+.containerText p{
+    color: #040404;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    margin-top: 1.2rem;
+}
+.containerText span{
+    color: #FF3294;
+    font-weight: 550;
+}
+.containerIcons{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* ----------------------- */
+
+@media (min-width: 768px) {
+    .containerText img{
+        width: 16rem;
+        height: 16rem;
+        
+    }
+    .containerText p{
+        font-size: 1.2rem;
+        margin-top: 2.5rem;
+    }
+   
+}
+
+@media (min-width: 1024px) {
+.containerText{
+    display: flex;
+    justify-content: space-between;
+}    
+
+.containerText p{
+   width: 23.5rem;
+}
+.containerIcons{
+    display: flex;
+    justify-content: end;
+}
+.containerIcons a{
+    margin-left: 2rem ;
+}
+}
+
+
+@media (min-width: 1440px) {
+    .containerText{
+        justify-content: space-between;
+    }   
+    .containerText img{
+        width: 19rem;
+        height: 19rem;
+        
+    }
+    .containerText p{
+       width: 34rem;
+       font-size: 1.6rem;
+    }
+
+  
+    }
+
+    @media (min-width: 2560px) {
+        .containerText{
+            justify-content: space-evenly;
+        }   
+        .containerText img{
+            width: 26rem;
+            height: 26rem;
+            
+        }
+        .containerText p{
+           width: 44rem;
+           font-size: 2.2rem;
+        }
+        .containerIcons{
+            margin-right: 24rem;
+        }
+    
+      
+        }

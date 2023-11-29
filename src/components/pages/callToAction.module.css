@@ -1,0 +1,139 @@
+
+.containerCallToAction{
+    width: 16rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem auto 2rem auto;
+    
+}
+
+.containerCallToAction  {
+    background-color: #000;
+    border-radius: 2rem;
+}
+
+.containerText{
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+}
+
+.containerText span{
+    color: #FF3294;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    background-color: transparent;
+    
+    
+}
+.containerText h2{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 550;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.btnCallToAction{
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 1.875rem;
+    background: #FF3294;
+    color : #FFF;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+
+/* --------------------- */
+
+@media (min-width: 425px) {
+    .containerCallToAction{
+        width: 22rem;
+        height: 11rem;
+ 
+        
+    }
+    .containerText span{
+        font-size: 0.9rem;   
+    }
+    .containerText h2{
+     
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .containerCallToAction{
+        width: 36rem;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .containerCallToAction{
+    display: flex;
+    flex-direction: row;
+    width: 42rem;
+    }
+ 
+}
+
+@media (min-width: 1440px) {
+    .containerCallToAction{
+    width: 70rem;
+    justify-content: space-between;
+    }
+    .containerText{
+       padding-left: 3rem;
+    }
+    
+    .containerText span{
+        font-size: 1.2rem;
+    }
+    .containerText h2{
+        font-size: 1.8rem;
+       
+    }
+    
+    .btnCallToAction{
+        width: 8.4rem;
+        height: 2.9rem;
+        font-size: 1rem;
+        margin-right: 3rem;
+    }
+ 
+}
+
+@media (min-width: 2400px) {
+    .containerCallToAction{
+    width: 126rem;
+    }
+    .containerText{
+       padding-left: 8rem;
+    }
+    
+    .containerText span{
+        font-size: 1.8rem;
+    }
+    .containerText h2{
+        font-size: 2.3rem;
+       
+    }
+    
+    .btnCallToAction{
+        width: 12rem;
+        height: 3.9rem;
+        font-size: 1.5rem;
+        margin-right: 8rem;
+    }
+ 
+}
