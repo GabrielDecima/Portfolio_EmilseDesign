@@ -3,6 +3,7 @@ import Navbar from './components/navbar/navbar'
 import About from './components/pages/about'
 import CallToAction from './components/pages/callToAction'
 import Header from './components/pages/header'
+import Prices from './components/pages/prices'
 import Projects from './components/pages/projects'
 import { useState } from 'react'
 
@@ -22,6 +23,7 @@ function App() {
    <Projects isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
    <About/>
    <CallToAction />
+   <Prices />
   
      
     </>

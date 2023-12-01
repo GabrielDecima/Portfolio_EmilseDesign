@@ -66,7 +66,7 @@
 
 @media (min-width: 1440px) {
     .containerText{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }   
     .containerText img{
         width: 19rem;
@@ -78,13 +78,15 @@
        font-size: 1.6rem;
     }
 
+    .containerIcons{
+        margin-right: 16rem;
+    }
+
+
   
     }
 
-    @media (min-width: 2560px) {
-        .containerText{
-            justify-content: space-evenly;
-        }   
+    @media (min-width: 2560px) { 
         .containerText img{
             width: 26rem;
             height: 26rem;

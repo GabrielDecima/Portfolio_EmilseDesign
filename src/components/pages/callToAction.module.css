@@ -1,6 +1,6 @@
 
 .containerCallToAction{
-    width: 16rem;
+    width: 17.5rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 
 .containerCallToAction  {
     background-color: #000;
-    border-radius: 2rem;
+    border-radius: 1.2rem;
 }
 
 .containerText{
@@ -53,6 +53,13 @@
 
 /* --------------------- */
 
+@media (min-width: 375px) {
+    .containerCallToAction{
+        width: 20rem;
+        height: 11rem;
+ 
+    }
+}
 @media (min-width: 425px) {
     .containerCallToAction{
         width: 22rem;
@@ -82,7 +89,7 @@
     .containerCallToAction{
     display: flex;
     flex-direction: row;
-    width: 42rem;
+    width: 43rem;
     }
  
 }
