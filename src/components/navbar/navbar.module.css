@@ -1,5 +1,8 @@
 .sectionNavbar{
   border-bottom: 0.1rem solid #9b9b9b;
+  position:sticky;
+  top: 0;
+  z-index: 100;
 }
 .logo img{
     width: 2.8rem;
@@ -12,6 +15,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0.4rem 0 0.4rem;
+    
 }
 .containerLogAndMenu{
   display: flex;
