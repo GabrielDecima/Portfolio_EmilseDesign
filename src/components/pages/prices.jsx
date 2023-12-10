@@ -1,5 +1,4 @@
 import Container from '../container/container';
-import CardPrice from '../cards/cardPrice';
 import styles from './prices.module.css';
 
 const Prices = () => {
@@ -22,65 +21,69 @@ const Prices = () => {
                         <tbody>
                             <tr>
                                 <td>Edición</td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Calendario</td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Boton confirmación</td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Mapa</td>
                                 <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Pase</td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Redes</td>
                                 <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Video</td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Musica</td>
                                 <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
                                 <td>Lista deseos</td>
                                 <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
-                                <td><box-icon name='check' color='#ff009e' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
+                         
 
                         </tbody>
                     </table>
+                    <div className={styles.containerButtons}>
+                        <button ><a href="#"></a>consultar</button>
+                        <button><a href="#"></a>consultar</button>
+                        <button><a href="#"></a>consultar</button>
+                    </div>
                 </div>
-                {/* <CardPrice/>
-                <CardPrice/>
-                <CardPrice/> */}
+         
             </div>
             </Container>
         </section>

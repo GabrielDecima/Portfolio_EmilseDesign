@@ -21,12 +21,8 @@
     margin-top: 1.2rem;
 }
 .containerText span{
-    color: #FF3294;
+    color: #1d7fff;
     font-weight: 550;
-}
-.containerIcons{
-    text-align: center;
-    margin-top: 2rem;
 }
 
 
@@ -54,13 +50,7 @@
 .containerText p{
    width: 23.5rem;
 }
-.containerIcons{
-    display: flex;
-    justify-content: end;
-}
-.containerIcons a{
-    margin-left: 2rem ;
-}
+
 }
 
 
@@ -77,12 +67,6 @@
        width: 34rem;
        font-size: 1.6rem;
     }
-
-    .containerIcons{
-        margin-right: 16rem;
-    }
-
-
   
     }
 
@@ -96,9 +80,5 @@
            width: 44rem;
            font-size: 2.2rem;
         }
-        .containerIcons{
-            margin-right: 24rem;
-        }
-    
       
         }

@@ -1,5 +1,5 @@
 import styles from './navbar.module.css';
-import logo from '../../assets/emilse-design-favicon-black.png';
+import logo from '../../assets/png/LogoNormal.png';
 import 'boxicons'
 
 
@@ -12,10 +12,12 @@ const Navbar = ({isMenuOpen, toggleMenu} ) => {
       <section className={styles.sectionNavbar}>
            
         <div className={styles.containerNavbar}>
+        
+
             <div className={styles.containerLogAndMenu}>
-                <a className={styles.logo} href="#"><img src={logo} alt="" /></a>
-                
+            
                 <div className={styles.btnMenu} onClick={toggleMenu}><box-icon name='menu'></box-icon></div> 
+                <a className={styles.logo} href="#"><img src={logo} alt="" /></a>
             </div>
 
           <div className={`${styles.menu} ${isMenuOpen ? styles.open : styles.close}`}>
@@ -27,22 +29,20 @@ const Navbar = ({isMenuOpen, toggleMenu} ) => {
 
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <span><box-icon name='home'></box-icon></span><a href="#home">Inicio</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <span><box-icon name='user-pin'></box-icon></span><a href="#about">Sobre mi</a>
               </li>
               <li>
-                <a href="#services">Services</a>
+               <span><box-icon name='customize' ></box-icon></span> <a href="#services">Paquetes</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+               <span><box-icon name='layout'></box-icon></span> <a href="#portfolio">Muestras</a>
               </li>
             </ul>
           </div>
-          <div className={styles.sectionBtns}>
-            <button>Contact us</button>
-          </div>
+        
         </div>
       </section>
     </>

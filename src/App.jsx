@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/footer/footer'
 import Navbar from './components/navbar/navbar'
 import About from './components/pages/about'
 import CallToAction from './components/pages/callToAction'
@@ -24,7 +25,7 @@ function App() {
    <About/>
    <CallToAction />
    <Prices />
-  
+  <Footer />
      
     </>
   )
