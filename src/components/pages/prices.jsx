@@ -4,13 +4,13 @@ import styles from './prices.module.css';
 const Prices = () => {
     return (
         <>
-        <section className={styles.sectionPrices}>
+        <section className={styles.sectionPrices} id='pricing'>
             <Container>
-            <div className={styles.containerPrices}>
+            <div className={styles.containerPrices} >
 
-                <div className={styles.containerTable}>
-                    <table className={styles.tablee}>
-                        <thead>
+                <div className={styles.containerTable} >
+                    <table className={styles.tablee} >
+                        <thead >
                             <tr>
                                 <th></th>
                                 <th>Estandar</th>
@@ -78,9 +78,14 @@ const Prices = () => {
                         </tbody>
                     </table>
                     <div className={styles.containerButtons}>
-                        <button ><a href="#"></a>consultar</button>
-                        <button><a href="#"></a>consultar</button>
-                        <button><a href="#"></a>consultar</button>
+                        <button ><a target='_blank' rel='noreferrer'    
+                        href="https://api.whatsapp.com/send?phone=543812060696&text=Hola%20Emilse!%20Estoy%20interesado%20en%20el%20servicio,%20ESTANDAR%20puedes%20darme%20mas%20informaci%C3%B3n.">consultar</a></button>
+
+                        <button><a target='_blank' rel='noreferrer'    
+                        href="https://api.whatsapp.com/send?phone=543812060696&text=Hola%20Emilse!%20Estoy%20interesado%20en%20el%20servicio,%20MEDIO%20puedes%20darme%20mas%20informaci%C3%B3n.">consultar</a></button>
+                        
+                        <button><a target='_blank' rel='noreferrer'    
+                        href="https://api.whatsapp.com/send?phone=543812060696&text=Hola%20Emilse!%20Estoy%20interesado%20en%20el%20servicio,%20PREMIUM%20puedes%20darme%20mas%20informaci%C3%B3n.">consultar</a></button>
                     </div>
                 </div>
          
@@ -92,3 +97,5 @@ const Prices = () => {
 }
 
 export default Prices;
+
+

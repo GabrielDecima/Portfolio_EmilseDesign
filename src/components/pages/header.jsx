@@ -4,7 +4,7 @@ import Container from '../container/container';
 const Header = () => {
     return (
         <>
-        <section className={styles.sectionHeader}>
+        <section className={styles.sectionHeader} id='projects'>
             <Container>
             {/* <span className={styles.span}>- Mi Portafolio</span> */}
             <div className={styles.titleContainer}>

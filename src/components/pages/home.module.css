@@ -1,0 +1,82 @@
+.sectionHome{
+    background-image: url('../../assets/png/SL_043021_42650_02.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    scroll-margin-top: 5rem;
+    
+    
+}
+
+.containerText{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    background-color: transparent;
+ 
+}
+.containerText h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: -0.001rem;
+    background-color: transparent;
+
+}
+
+.containerText p{
+    margin-top: 1rem;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+
+/* ------------------ */
+@media (min-width: 768px) {
+    .containerText h1{
+        font-size: 3rem;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+    }
+    
+    .containerText p{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+       
+    }
+}
+
+@media (min-width: 1024px) {
+    .containerText h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    .containerText p{
+        margin-top: 2.2rem;
+        font-size: 1.7rem;
+       
+    }
+}
+
+@media (min-width: 1440px) {
+    .containerText h1{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    
+    .containerText p{
+        font-size: 2rem;
+       
+    }
+}

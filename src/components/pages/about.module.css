@@ -1,8 +1,17 @@
 .sectionAbout{
-    margin-top: 6rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    scroll-margin-top: 5rem;
 
 }
 .containerText{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.sectionAbout{
     align-items: center;
     text-align: center;
 }
@@ -44,6 +53,7 @@
 @media (min-width: 1024px) {
 .containerText{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }    
 

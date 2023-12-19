@@ -29,16 +29,20 @@ const Navbar = ({isMenuOpen, toggleMenu} ) => {
 
             <ul>
               <li>
-                <span><box-icon name='home'></box-icon></span><a href="#home">Inicio</a>
+                <span><box-icon name='home'></box-icon></span>
+                <a href="#home" onClick={isMenuOpen? toggleMenu :''}>Home</a>
               </li>
               <li>
-                <span><box-icon name='user-pin'></box-icon></span><a href="#about">Sobre mi</a>
+              <span><box-icon name='user-pin'></box-icon></span>
+              <a href="#about" onClick={isMenuOpen? toggleMenu :''}>Sobre mi</a>
               </li>
               <li>
-               <span><box-icon name='customize' ></box-icon></span> <a href="#services">Paquetes</a>
+               <span><box-icon name='customize' ></box-icon></span>
+               <a href="#pricing" onClick={isMenuOpen? toggleMenu :''}>Paquetes</a>
               </li>
               <li>
-               <span><box-icon name='layout'></box-icon></span> <a href="#portfolio">Muestras</a>
+               <span><box-icon name='layout'></box-icon></span>
+               <a href="#projects" onClick={isMenuOpen? toggleMenu :''}>Muestras</a>
               </li>
             </ul>
           </div>

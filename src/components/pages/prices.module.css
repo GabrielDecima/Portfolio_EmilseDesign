@@ -61,8 +61,22 @@
   display: flex;
   justify-content: end;
 }
-
+.containerButtons button a{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
   
+.containerButtons button:hover{
+ background-color: #ffffff;
+}
+
+.containerButtons button:hover a{
+  color: #1d7fff;
+}
+
+
+
 @media (min-width: 375px) {
 .containerButtons{
   display: flex;

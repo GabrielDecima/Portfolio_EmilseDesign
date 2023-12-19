@@ -40,6 +40,12 @@
     margin-top: 1rem;
 }
 
+.btnCallToAction a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #FFF;
+}
+
 .btnCallToAction{
     width: 8rem;
     height: 2.7rem;
@@ -48,6 +54,14 @@
     color : #FFF;
     font-size: 0.9rem;
     font-weight: 550;
+}
+.btnCallToAction:hover{
+    background-color: #FFF;
+    
+}
+
+.btnCallToAction:hover a{
+    color: #1d7fff;
 }
 
 

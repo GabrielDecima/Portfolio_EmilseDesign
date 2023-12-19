@@ -1,14 +1,8 @@
 .sectionHeader{
     text-align: center;
+    scroll-margin-top: 5rem;
 }
-/* .span{
-color: #FF1292;
-font-size: 1.0625rem;
-font-style: italic;
-font-weight: 400;
-line-height: 2.5rem;
 
-} */
 .title{
 color: #141518;
 text-align: center;
