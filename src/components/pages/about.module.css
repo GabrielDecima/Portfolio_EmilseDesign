@@ -1,42 +1,71 @@
 .sectionAbout{
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../assets/fondoabout7.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 45rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     scroll-margin-top: 5rem;
 
+    
+}
+.containerAbout{
+    height: 45rem;
+    background-color: rgb(0, 0, 0, 0.2);
+    
 }
 .containerText{
     align-items: center;
     text-align: center;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;  
+    background-color: transparent;
+    padding: 2rem 0 2rem 0;
+  
 }
-.sectionAbout{
-    align-items: center;
-    text-align: center;
-}
+
 .containerText img{
     width: 14rem;
     height: 14rem;
+    margin: auto;
     border-radius: 50%;
+    
     
 }
 .containerText p{
-    color: #040404;
+    color: #0051bb;
     text-align: center;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 550;
     line-height: 2.5rem;
-    margin-top: 1.2rem;
+    margin-top: 1.2rem;  
+    background-color: transparent;
+    margin: auto;
 }
 .containerText span{
-    color: #1d7fff;
+    color: #0051bb;
     font-weight: 550;
+    background-color: transparent;
+    
 }
 
 
 /* ----------------------- */
 
+@media (min-width: 425px) {
+    .sectionAbout{
+        height: 40rem;
+    }
+    .containerAbout{
+        height: 40rem;
+      
+        
+    }
+}
 @media (min-width: 768px) {
     .containerText img{
         width: 16rem;
@@ -51,6 +80,14 @@
 }
 
 @media (min-width: 1024px) {
+
+    .sectionAbout{
+        height: 35rem;
+    }
+    .containerAbout{
+        height: 35rem;
+      
+    }
 .containerText{
     display: flex;
     flex-direction: row;

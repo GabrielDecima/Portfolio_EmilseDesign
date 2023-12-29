@@ -1,22 +1,20 @@
 
 .containerCallToAction{
-    width: 17.5rem;
+    width: 17rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 4rem auto 2rem auto;
-    
-}
-
-.containerCallToAction  {
+    margin: 2rem auto 2rem auto;
     background-color: #000;
     border-radius: 1.2rem;
+    
 }
 
 .containerText{
     background-color: #000;
+    border-radius: 1.2rem;
     text-align: center;
     align-items: center;
 }
@@ -31,9 +29,10 @@
     
     
 }
+
 .containerText h2{
     color: rgb(255, 255, 255);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 550;
     background-color: transparent;
@@ -49,21 +48,27 @@
 .btnCallToAction{
     width: 8rem;
     height: 2.7rem;
-    border-radius: 1.875rem;
-    background: #1d7fff;
-    color : #FFF;
+    border-radius: 1.1rem;
     font-size: 0.9rem;
     font-weight: 550;
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);    
+    background-size: 200% auto;
+    transition: 0.5s;
+
 }
 .btnCallToAction:hover{
-    background-color: #FFF;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.03);
+
     
 }
 
 .btnCallToAction:hover a{
-    color: #1d7fff;
+    color: #ffffff;
+    
 }
-
 
 /* --------------------- */
 
@@ -105,6 +110,7 @@
     flex-direction: row;
     width: 43rem;
     }
+    
  
 }
 
@@ -118,7 +124,8 @@
     }
     
     .containerText span{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        
     }
     .containerText h2{
         font-size: 1.8rem;
@@ -131,7 +138,7 @@
         font-size: 1rem;
         margin-right: 3rem;
     }
- 
+
 }
 
 @media (min-width: 2400px) {

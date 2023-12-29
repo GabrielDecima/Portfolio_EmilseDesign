@@ -29,10 +29,15 @@ text-transform: uppercase;
 }
 
 
-.navigation li a:hover{
-    border-radius: 0.0625rem;
-    border: 1.5px solid #010101;
-    color: #000;
+
+.select{
+    color: #ffffff !important;
+    padding: 0.09rem;
+    border-radius: 0.2rem;
+    border: solid rgb(0, 0, 0) 0.002rem ;
+    background-color: #006eff;
+    opacity: 0.9;
+    transition: 0.3s ease;
 
 }
     
@@ -44,10 +49,12 @@ text-transform: uppercase;
     margin-top: 1.5rem;
     
 }
+
 .cardProject{
     overflow: hidden;
     cursor: pointer;
     position: relative;
+    
 }
 .open{
    position: absolute;
@@ -98,12 +105,13 @@ text-transform: uppercase;
         font-style:inherit;
         font-weight: 550; 
     }  
-        .navigation li a:hover{
-            border-radius: 0.0625rem;
-            border: 1.5px solid #010101;
-            color: #000;
-        
+ 
+    .select{
+        color: #ffffff !important;
+        padding: 0.191rem;
+    
     }
+        
     .containerCardsProject{
       grid-template-columns: 1fr 1fr ; 
     }

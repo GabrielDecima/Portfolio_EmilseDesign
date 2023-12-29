@@ -8,6 +8,7 @@ import Prices from './components/pages/prices'
 import Projects from './components/pages/projects'
 import Home from './components/pages/home'
 import { useState } from 'react'
+import Whatsapp from './components/buttons/whatsapp'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
    <About/>
    <CallToAction />
    <Prices />
+   <Whatsapp isMenuOpen={isMenuOpen} />
   <Footer />
      
     </>
