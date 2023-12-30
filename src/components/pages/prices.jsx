@@ -1,4 +1,5 @@
 import Container from '../container/container';
+import CardPrice from '../cards/cardPrice.jsx';
 import styles from './prices.module.css';
 
 const Prices = () => {
@@ -88,7 +89,11 @@ const Prices = () => {
                         href="https://api.whatsapp.com/send?phone=543812060696&text=Hola%20Emilse!%20Estoy%20interesado%20en%20el%20servicio,%20PREMIUM%20puedes%20darme%20mas%20informaci%C3%B3n.">consultar</a></button>
                     </div>
                 </div>
-         
+                <div className={styles.containerCard}>
+                    <CardPrice nombre = "Estandar" precio = "10.000"/>
+                    <CardPrice nombre = "Medio" precio = "20.000"/>
+                    <CardPrice nombre = "Premium" precio = "30.000"/>
+                </div>
             </div>
             </Container>
         </section>

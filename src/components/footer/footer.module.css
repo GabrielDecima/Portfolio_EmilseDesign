@@ -1,5 +1,7 @@
 .sectionFooter{
-    background-color: #f3f3f3;
+    background-color: #f1f1f1;
+    bottom: 0;
+    height: 46.3rem;
 
 }
 .containerFooter{
@@ -89,6 +91,11 @@
    
 }
 @media (min-width: 768px) {
+    .sectionFooter{
+     
+        height: 23rem;
+    
+    }
     .containerFooter{
         flex-direction: row;
         justify-content: space-evenly;

@@ -1,9 +1,16 @@
+.sectionPrices{
+  margin-bottom: 8rem;
+}
 .containerPrices{
     display: flex;
     flex-direction: column;
     align-items: center;
  
     
+}
+.containerCard{
+    display: flex;
+    flex-direction: column;
 }
 
 .containerTable{
@@ -18,7 +25,7 @@
   
   .tablee th,
   .tablee td {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #929292;
     text-align: left;
     padding: 0.5rem 0 0.5rem 0;
     font-size: 0.8rem;
@@ -103,9 +110,13 @@
 
 
   @media (min-width: 768px) {
+    .containerCard{
+      flex-direction: row;
+      gap: 2rem;
+  }
     .tablee th,
     .tablee td {
-      border-bottom: 0.0900rem solid #dddddd;
+      border-bottom: 0.0900rem solid #929292;
       font-size: 1rem;
       width: 10rem;
     }
@@ -124,6 +135,11 @@
 
 
 @media (min-width: 1024px) {
+
+  .containerCard{
+    
+    gap: 4rem;
+}
     .containerPrices{
         display: flex;
         justify-content: space-evenly;
@@ -132,7 +148,7 @@
 
     .tablee th,
     .tablee td {
-      border-bottom: 0.100rem solid #dddddd;
+      border-bottom: 0.100rem solid #929292;
       font-size: 1.1rem;
       width: 15rem;
     }
@@ -146,7 +162,10 @@
 }
 
 @media (min-width: 1440px) {
-
+  .containerCard{
+    
+    gap: 9rem;
+}
   .containerButtons button{
     margin-left: 9.5rem;
     font-size: 1rem;
@@ -165,7 +184,7 @@
 
     .tablee th,
     .tablee td {
-      border-bottom: 0.100rem solid #dddddd;
+      border-bottom: 0.100rem solid #929292;
       font-size: 1.8rem;
       width: 22rem;
     }

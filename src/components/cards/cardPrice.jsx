@@ -1,12 +1,13 @@
 import styles from './cardPrice.module.css';
 
-const CardPrice = () => {
+// eslint-disable-next-line react/prop-types
+const CardPrice = ({nombre, precio }) => {
     return (
         <>
-             <div className={styles.card}>
+             {/* <div className={styles.card}>
                 <div className={styles.header}>
-                    <span className={styles.title}>Estandar</span>
-                    <span className={styles.price}>$20.000</span>
+                    <span className={styles.title}>{nombre}</span>
+                    <span className={styles.price}>${precio}</span>
                 </div>
                 <p className={styles.desc}>Especificaciones:</p>
                 <ul className={styles.lists}>
@@ -29,8 +30,20 @@ const CardPrice = () => {
                     <span>Confirmación de asistencia</span>
                     </li>
                 </ul>
-                <button type="button" className={styles.action}>Get Started</button>
+                <button type="button" className={styles.buttonAction}>Solicitar</button>
+                </div> */}
+
+
+
+
+                {/* ------------------------ */}
+               
+                <div className={styles.card}>
+                    <h2>{nombre}</h2>
+                    <p>${precio}</p>
+                    <button type="button" className={styles.buttonAction}>Solicitar</button>
                 </div>
+
         </>
     );
 }
