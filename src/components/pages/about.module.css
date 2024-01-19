@@ -9,13 +9,13 @@
     height: 45rem;
     margin-top: 10rem;
     margin-bottom: 10rem;
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 4rem;
 
     
 }
 .containerAbout{
     height: 45rem;
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0.1);
     
 }
 .containerText{
@@ -37,7 +37,7 @@
     
 }
 .containerText p{
-    color: #0051bb;
+    color: #000000;
     text-align: center;
     font-size: 1rem;
     font-weight: 550;
@@ -47,7 +47,7 @@
     margin: auto;
 }
 .containerText span{
-    color: #0051bb;
+    color: #005ac2;
     font-weight: 550;
     background-color: transparent;
     

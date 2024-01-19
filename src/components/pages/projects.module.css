@@ -70,6 +70,11 @@ text-transform: uppercase;
     transition: transform 0.4s ease;
     
 }
+.cardProject p{
+    font-size: 1rem;
+   
+   
+}
 
 .cardProject img:hover{
     box-shadow:rgb(122, 122, 122) 0px 5px 15px;
@@ -117,11 +122,13 @@ text-transform: uppercase;
     }
     
     .cardProject img{
-        width: 13rem;
-        height: 16rem;
+        width: 15rem;
+        height: 18rem;
         margin: 1.5rem;
     }
-    
+    .cardProject p{
+        font-size: 1.2rem;
+    }
     
 
 }
@@ -133,9 +140,13 @@ text-transform: uppercase;
     
     .cardProject img{
       
-        width: 12rem;
-        height: 16rem; 
+        width: 16rem;
+        height: 19rem;
     }
+    .cardProject p{
+        font-size: 1.3rem;
+    }
+    
 }
 
 @media (min-width: 1440px) {
@@ -145,13 +156,6 @@ text-transform: uppercase;
         grid-template-columns: 1fr 1fr 1fr 1fr ; 
     }
     
-    .cardProject img{
-      
-        width: 14rem;
-        height: 19rem;
-        
-    }
-
 }
 
 @media (min-width: 2000px) {
@@ -163,8 +167,8 @@ text-transform: uppercase;
     
     .cardProject img{
       
-        width: 19rem;
-        height: 26rem;
+        width: 22rem;
+        height: 28rem;
         margin: 3rem;
     }
 
@@ -178,6 +182,9 @@ text-transform: uppercase;
        
         font-size: 1.4rem;
        
+    }
+    .cardProject p{
+        font-size: 1.6rem;
     }
       
 

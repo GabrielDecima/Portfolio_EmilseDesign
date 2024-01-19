@@ -9,6 +9,7 @@ import Projects from './components/pages/projects'
 import Home from './components/pages/home'
 import { useState } from 'react'
 import Whatsapp from './components/buttons/whatsapp'
+import Modal from './components/pages/modal'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
    <About/>
    <CallToAction />
    <Prices />
+   <Modal />
    <Whatsapp isMenuOpen={isMenuOpen} />
   <Footer />
      
