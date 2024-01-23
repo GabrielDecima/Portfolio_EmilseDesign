@@ -23,55 +23,55 @@ const Prices = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <span className={styles.span1}><td>Edición<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Edición"}  /></td></span>
+                               <td>Edición<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas  refiera a modificar bla bla ablalsadslasndmlknmdwasdas refiera a modificar bla bla ablalsadslasndmlknmdwasdas refiera a modificar bla bla ablalsadslasndmlknmdwasdas refiera a modificar bla bla ablalsadslasndmlknmdwasdas refiera a modificar bla bla ablalsadslasndmlknmdwasdas refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Edición"}  /></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                            <span className={styles.span1}><td>Calendario<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Calendario"}  /></td></span>
+                            <td>Calendario<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Calendario"}  /></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                            <span className={styles.span1}><td>Boton confirmación<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Boton confirmación"}  /></td></span>
+                            <td>Boton confirmación<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Boton confirmación"}  /></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                                 <span className={styles.span1}><td>Mapa<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Mapa"}/></td></span>
+                                <td>Mapa<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Mapa"}/></td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                            <span className={styles.span1}><td>Pase<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Pase"}/></td></span>
+                           <td>Pase<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Pase"}/></td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                            <span className={styles.span1}><td>Redes<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Redes"}/></td></span>
+                           <td>Redes<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Redes"}/></td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                            <span className={styles.span1}><td>Video<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Video"}/></td></span>
-                                <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='x' ></box-icon></td>
-                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
-                            </tr>
-                            <tr>
-                            <span className={styles.span1}><td>Musica<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Musica"}/></td></span>
+                           <td>Video<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Video"}/></td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                             </tr>
                             <tr>
-                            <span className={styles.span1}><td>Lista deseos<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Lista deseos"}/></td></span>
+                           <td>Musica<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Musica"}/></td>
+                                <td><box-icon name='x' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                                <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
+                            </tr>
+                            <tr>
+                            <td>Lista deseos<Modal text={"La edicion se refiera a modificar bla bla ablalsadslasndmlknmdwasdas"} title={"Lista deseos"}/></td>
                                 <td><box-icon name='x' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>
                                 <td><box-icon name='check' color='#1d7fff' ></box-icon></td>

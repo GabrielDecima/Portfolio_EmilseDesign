@@ -9,10 +9,7 @@
  
     
 }
-.span1 td{
-  display: flex;
-  align-items: center;
-}
+
 .containerCard{
     display: flex;
     flex-direction: column;
@@ -33,8 +30,8 @@
     border-bottom: 1px solid #929292;
     text-align: left;
     padding: 0.5rem 0 0.5rem 0;
-    font-size: 0.9rem;
-    width: 7.2rem;
+    font-size: 0.8rem;
+   
   }
   .tablee th{
     padding-right: 0.7rem;  

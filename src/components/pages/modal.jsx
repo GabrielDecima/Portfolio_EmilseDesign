@@ -6,7 +6,7 @@ import 'reactjs-popup/dist/index.css';
 const Modal = ({text, title}) => {
     return (
         <Popup
-        trigger={<button className={styles.info}><box-icon  type='solid' name='info-circle'></box-icon></button>}
+        trigger={<button className={styles.info}><box-icon name='error-circle' ></box-icon></button>}
         modal
         nested
       >
